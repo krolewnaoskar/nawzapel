@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   font-size: 20px;
 }
 
@@ -49,6 +49,8 @@ body {
 
 .header {
   background-image: url(../img/hero.png);
+  background-position: center;
+  background-size: cover;
   height: calc(100vh - 158px);
   display: flex;
   align-items: center;
