@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+//navigation///////////////////
+.nav {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+
+    &-list {
+
+        display: flex;
+        font-size: 20px;
+        flex-grow: 1;
+        justify-content: start;
+
+        li {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+    }
+
+    &-figure {
+        margin: 0px;
+
+    }
+
+    &-input-search {
+        height: 35px;
+        width: 174px;
+
+        &::placeholder {
+            padding: 5px;
+
+        }
+
+    }
+
+}
+//header///////////////////////////////////////
+
+.header{
+    background-image: url(../img/hero.png);
+    height: 83.25vh;
+    display: flex;
+    align-items: center;
+
+    &-title{
+        color: floralwhite;
+        padding-left: 130px;
+        font-size: 70px;
+        
+    }
+}
+
